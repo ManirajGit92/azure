@@ -1,8 +1,5 @@
-# Microsoft Azure utility
-
-
-## Build Azure image using Packer
-```bash
+#Microsoft Azure utility
+#Build Azure image using Packer
 # Switch to Azure utility directory.
 $ cd <PROJECT_ROOT_DIR>
 
@@ -14,6 +11,3 @@ $ packer validate azure/image/alma-linux-9.pkr.hcl
 
 # Build VM image using Packer module.
 $ packer build azure/image/alma-linux-9.pkr.hcl
-```
-
- 
